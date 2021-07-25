@@ -881,9 +881,7 @@ function toXmlTime(date) {
 }
 
 function toXmlDateTime(date) {
-  date = new Date(date);
-  var isoStr = date.toISOString();
-  return isoStr;
+  return date;
 }
 
 function toXmlDateOrTime(descriptor, val) {
